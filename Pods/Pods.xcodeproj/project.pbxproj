@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1566A3BF6977BD666050CB55471A2676 /* BEMCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 874B4301A4F974BFF474C1AC37B7924D /* BEMCheckBox-dummy.m */; };
+		649890C5DA1AA1854ACE61E7A36BE10D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		68F816FE88076EDEAA0D650DEBC6F8FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6C695A44B2F0B402B4D9ABEBCECEDFB6 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DB335F1CDA6DAE417B796A91AB0E3A /* BEMAnimationManager.m */; };
+		A9D1DF131554FFF23F0C3B55FE73E948 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = E52E5B540CB3028FD6CC4519C0AEE21A /* BEMCheckBox.m */; };
+		BBB2BADF2D05735A0136C7D4652AD4FB /* Pods-IosRecipeApp2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B35E30AC5C0A51068812D2DF1B6298 /* Pods-IosRecipeApp2-dummy.m */; };
+		CEE9FF1F2D926ACD9F533F020A45266F /* BEMPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EF996D5146B79FF23633590FF4C41EAA /* BEMPathManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1D5393855D20F8BB0C1C2FDB0FF2292 /* BEMCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 43517132E0D5859CC0272B7F375B94C7 /* BEMCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC911203328B3247D8B11F5ED49DED45 /* BEMAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1627A6E81483E7308AB1FF8C27C20349 /* BEMAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F77FEB669B94C63E644D37831F5FFB79 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8A52C68DC41D65D8306C3E37FA2FDC /* BEMPathManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A1850BFB68229F9434A12586AC8AD77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C80F913EE213FA1EE3801FF8CEF0DD4;
+			remoteInfo = BEMCheckBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A2DB7C28716C9BB0304F8FEAB34C384 /* libPods-IosRecipeApp2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IosRecipeApp2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1627A6E81483E7308AB1FF8C27C20349 /* BEMAnimationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMAnimationManager.h; path = Classes/BEMAnimationManager.h; sourceTree = "<group>"; };
+		1F5C7B4EDFBCE204D71F1535AB66127E /* Pods-IosRecipeApp2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IosRecipeApp2.debug.xcconfig"; sourceTree = "<group>"; };
+		357D5F30BDBDC0F4A0A5C9AB22E3070A /* Pods-IosRecipeApp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IosRecipeApp2.release.xcconfig"; sourceTree = "<group>"; };
+		43517132E0D5859CC0272B7F375B94C7 /* BEMCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBox.h; path = Classes/BEMCheckBox.h; sourceTree = "<group>"; };
+		5B57AEBA16595D12E6580EA8C80662BC /* Pods-IosRecipeApp2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IosRecipeApp2-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7788A2E920DD15CF983EF0C25D7DFFEC /* BEMCheckBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMCheckBox.xcconfig; sourceTree = "<group>"; };
+		84AE8B5DC98CD46C0E17B07E5A0003BF /* Pods-IosRecipeApp2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IosRecipeApp2-frameworks.sh"; sourceTree = "<group>"; };
+		874B4301A4F974BFF474C1AC37B7924D /* BEMCheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEMCheckBox-dummy.m"; sourceTree = "<group>"; };
+		8CDD5F38472C56843AF3469847BC6687 /* Pods-IosRecipeApp2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IosRecipeApp2-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97F1CBD436E427612C4749B3507A7AAB /* Pods-IosRecipeApp2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IosRecipeApp2-acknowledgements.plist"; sourceTree = "<group>"; };
+		A5B35E30AC5C0A51068812D2DF1B6298 /* Pods-IosRecipeApp2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IosRecipeApp2-dummy.m"; sourceTree = "<group>"; };
+		ADDA1B5DF8FC54B4373651530D8E2B69 /* BEMCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-prefix.pch"; sourceTree = "<group>"; };
+		B4DB335F1CDA6DAE417B796A91AB0E3A /* BEMAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMAnimationManager.m; path = Classes/BEMAnimationManager.m; sourceTree = "<group>"; };
+		B5921219233B233F39F79307E65D2929 /* libBEMCheckBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBEMCheckBox.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC8A52C68DC41D65D8306C3E37FA2FDC /* BEMPathManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMPathManager.m; path = Classes/BEMPathManager.m; sourceTree = "<group>"; };
+		E52E5B540CB3028FD6CC4519C0AEE21A /* BEMCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBox.m; path = Classes/BEMCheckBox.m; sourceTree = "<group>"; };
+		EF996D5146B79FF23633590FF4C41EAA /* BEMPathManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMPathManager.h; path = Classes/BEMPathManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		747FCEE73D6A15F6BACAF046214E83FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F816FE88076EDEAA0D650DEBC6F8FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E4EB76E808167F5A1C5072F309121D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649890C5DA1AA1854ACE61E7A36BE10D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4E8D49F4C501930C9B15D7ABABE0499B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5B83EC52ADCEE967CEA4563C5899277 /* Pods-IosRecipeApp2 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A000AFFD5004012C0B35CEF34DCF643F /* Pods */,
+				B5DEE38DD1C89F4E6508C7E4228F92C1 /* Products */,
+				4E8D49F4C501930C9B15D7ABABE0499B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A000AFFD5004012C0B35CEF34DCF643F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E58213EBD7F0306328CA414CB1498C6B /* BEMCheckBox */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5DEE38DD1C89F4E6508C7E4228F92C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5921219233B233F39F79307E65D2929 /* libBEMCheckBox.a */,
+				0A2DB7C28716C9BB0304F8FEAB34C384 /* libPods-IosRecipeApp2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D62DAADFCA1FF064AAE3088BBAD07DD9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7788A2E920DD15CF983EF0C25D7DFFEC /* BEMCheckBox.xcconfig */,
+				874B4301A4F974BFF474C1AC37B7924D /* BEMCheckBox-dummy.m */,
+				ADDA1B5DF8FC54B4373651530D8E2B69 /* BEMCheckBox-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BEMCheckBox";
+			sourceTree = "<group>";
+		};
+		E58213EBD7F0306328CA414CB1498C6B /* BEMCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				1627A6E81483E7308AB1FF8C27C20349 /* BEMAnimationManager.h */,
+				B4DB335F1CDA6DAE417B796A91AB0E3A /* BEMAnimationManager.m */,
+				43517132E0D5859CC0272B7F375B94C7 /* BEMCheckBox.h */,
+				E52E5B540CB3028FD6CC4519C0AEE21A /* BEMCheckBox.m */,
+				EF996D5146B79FF23633590FF4C41EAA /* BEMPathManager.h */,
+				DC8A52C68DC41D65D8306C3E37FA2FDC /* BEMPathManager.m */,
+				D62DAADFCA1FF064AAE3088BBAD07DD9 /* Support Files */,
+			);
+			path = BEMCheckBox;
+			sourceTree = "<group>";
+		};
+		E5B83EC52ADCEE967CEA4563C5899277 /* Pods-IosRecipeApp2 */ = {
+			isa = PBXGroup;
+			children = (
+				5B57AEBA16595D12E6580EA8C80662BC /* Pods-IosRecipeApp2-acknowledgements.markdown */,
+				97F1CBD436E427612C4749B3507A7AAB /* Pods-IosRecipeApp2-acknowledgements.plist */,
+				A5B35E30AC5C0A51068812D2DF1B6298 /* Pods-IosRecipeApp2-dummy.m */,
+				84AE8B5DC98CD46C0E17B07E5A0003BF /* Pods-IosRecipeApp2-frameworks.sh */,
+				8CDD5F38472C56843AF3469847BC6687 /* Pods-IosRecipeApp2-resources.sh */,
+				1F5C7B4EDFBCE204D71F1535AB66127E /* Pods-IosRecipeApp2.debug.xcconfig */,
+				357D5F30BDBDC0F4A0A5C9AB22E3070A /* Pods-IosRecipeApp2.release.xcconfig */,
+			);
+			name = "Pods-IosRecipeApp2";
+			path = "Target Support Files/Pods-IosRecipeApp2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		63FBB7A4A44B9329E9359F67B4365B98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC911203328B3247D8B11F5ED49DED45 /* BEMAnimationManager.h in Headers */,
+				D1D5393855D20F8BB0C1C2FDB0FF2292 /* BEMCheckBox.h in Headers */,
+				CEE9FF1F2D926ACD9F533F020A45266F /* BEMPathManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7629C296B317C8EB7AAB4ED8473057AD /* Pods-IosRecipeApp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C97B8019223297CC5E383EE1258AAD /* Build configuration list for PBXNativeTarget "Pods-IosRecipeApp2" */;
+			buildPhases = (
+				20BE4CA5B4698F4A7EDFC14499565EB0 /* Sources */,
+				F1E4EB76E808167F5A1C5072F309121D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16960E69E301607F9AFA9D5830CA4656 /* PBXTargetDependency */,
+			);
+			name = "Pods-IosRecipeApp2";
+			productName = "Pods-IosRecipeApp2";
+			productReference = 0A2DB7C28716C9BB0304F8FEAB34C384 /* libPods-IosRecipeApp2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8C80F913EE213FA1EE3801FF8CEF0DD4 /* BEMCheckBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955F5F0255011485D01CBE8E153B3757 /* Build configuration list for PBXNativeTarget "BEMCheckBox" */;
+			buildPhases = (
+				A2805C0188FE2EC26941C41D02F6CB8B /* Sources */,
+				747FCEE73D6A15F6BACAF046214E83FD /* Frameworks */,
+				63FBB7A4A44B9329E9359F67B4365B98 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BEMCheckBox;
+			productName = BEMCheckBox;
+			productReference = B5921219233B233F39F79307E65D2929 /* libBEMCheckBox.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B5DEE38DD1C89F4E6508C7E4228F92C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C80F913EE213FA1EE3801FF8CEF0DD4 /* BEMCheckBox */,
+				7629C296B317C8EB7AAB4ED8473057AD /* Pods-IosRecipeApp2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20BE4CA5B4698F4A7EDFC14499565EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB2BADF2D05735A0136C7D4652AD4FB /* Pods-IosRecipeApp2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2805C0188FE2EC26941C41D02F6CB8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C695A44B2F0B402B4D9ABEBCECEDFB6 /* BEMAnimationManager.m in Sources */,
+				1566A3BF6977BD666050CB55471A2676 /* BEMCheckBox-dummy.m in Sources */,
+				A9D1DF131554FFF23F0C3B55FE73E948 /* BEMCheckBox.m in Sources */,
+				F77FEB669B94C63E644D37831F5FFB79 /* BEMPathManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16960E69E301607F9AFA9D5830CA4656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BEMCheckBox;
+			target = 8C80F913EE213FA1EE3801FF8CEF0DD4 /* BEMCheckBox */;
+			targetProxy = 5A1850BFB68229F9434A12586AC8AD77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E3F9C36F4DF02B0F1C1E523DF50CF97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7788A2E920DD15CF983EF0C25D7DFFEC /* BEMCheckBox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BEMCheckBox/BEMCheckBox-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58BABE57D604F619526A2C9FA8209142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7788A2E920DD15CF983EF0C25D7DFFEC /* BEMCheckBox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BEMCheckBox/BEMCheckBox-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		634CBD241899093DE9F509CD7C289E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F5C7B4EDFBCE204D71F1535AB66127E /* Pods-IosRecipeApp2.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DA8FDE37A933C961FDB576C06026E1CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 357D5F30BDBDC0F4A0A5C9AB22E3070A /* Pods-IosRecipeApp2.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		955F5F0255011485D01CBE8E153B3757 /* Build configuration list for PBXNativeTarget "BEMCheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3F9C36F4DF02B0F1C1E523DF50CF97 /* Debug */,
+				58BABE57D604F619526A2C9FA8209142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0C97B8019223297CC5E383EE1258AAD /* Build configuration list for PBXNativeTarget "Pods-IosRecipeApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634CBD241899093DE9F509CD7C289E14 /* Debug */,
+				DA8FDE37A933C961FDB576C06026E1CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

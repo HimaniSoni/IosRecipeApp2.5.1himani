@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[SearchByIngredientsViewController collectionView:cellForItemAtIndexPath:]:SearchByIngredientsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "recipe.ingredientsNames">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RecipeDisplayVC btnShare:]:RecipeDisplayVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_shareProp.currentBackgroundImage">
+            </PersistentString>
+            <PersistentString
+               value = "_shareProp.currentImage">
+            </PersistentString>
+            <PersistentString
+               value = "[UIImage imageNamed:@&quot;shares.png&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

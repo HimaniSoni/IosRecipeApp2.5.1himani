@@ -17,8 +17,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+   [[UITabBar appearance] setSelectionIndicatorImage:[UIImage imageNamed:@"Button_3.png"]];
+    
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"Cochin-Italic" size:15.0f]}forState:UIControlStateSelected];
+    
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"Cochin-Italic" size:15.0f]}forState:UIControlStateNormal];
+    
+    
+    
     return YES;
 }
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
