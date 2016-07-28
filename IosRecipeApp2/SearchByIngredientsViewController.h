@@ -17,7 +17,7 @@
     NSMutableDictionary *result;
 
 
-}//
+}///
 @property (strong,nonatomic)  NSString *finalString;
 @property (strong,nonatomic) NSMutableArray *searchWords;
 @property (strong,nonatomic) NSMutableSet *selectedNames;
